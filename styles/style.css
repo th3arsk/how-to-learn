@@ -259,7 +259,7 @@
  line-height: 30px;
  font-size: 18px;
  font-weight: 600;
- color: white
+ color: white;
 }
 .footer__column_links {
   display: flex;
