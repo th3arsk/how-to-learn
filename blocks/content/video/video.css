@@ -1,0 +1,18 @@
+.video {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.video__iframes {
+  margin: auto;
+  display: flex;
+  column-gap: 20px;
+  position: relative;
+  bottom: -50px;
+}
+
+.video__iframe {
+  position: relative;
+}
+

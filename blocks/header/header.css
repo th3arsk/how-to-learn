@@ -1,0 +1,76 @@
+.header {
+  position: relative;
+  display: flex;
+  background-color: #f2f2f2;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  overflow: hidden;
+}
+
+.logo {
+  width: 228px;
+  height: 32px;
+  z-index: 2;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  margin: auto 0;
+  width: 730px;
+  position: relative;
+  left: 64px;
+  z-index: 2;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
+}
+
+.header__subtitle {
+  margin: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  width: 388px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+  opacity: 1;
+  transition: ease .3s;
+}
+
+.header__link:hover {
+  opacity: .5;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.header__square-pic {
+  background-color: #2f80ed;
+  width: 568px;
+  height: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  z-index: 0;
+  animation: rotation 20s infinite linear;
+}
