@@ -2,16 +2,6 @@
 
 @import url(./page/page.css);
 
-@import url(./page/two-columns.css);
-
-@import url(./page/section-title.css);
-
-@import url(./page/section-subtitle.css);
-
-@import url(./page/table/table.css);
-
-@import url(./page/table/_theme/table_theme_dark.css);
-
 @import url(./blocks/header/header.css); /*header*/
 
 @import url(./blocks/content/description/description.css); /*description*/
