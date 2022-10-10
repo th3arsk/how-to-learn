@@ -1,10 +1,10 @@
-.footer {
+.footer-section {
   min-height: 350px;
   background-color: #1f1f1f;
   display: flex;
 }
 
-.footer__column {
+.footer__columns {
   width: 90%;
   margin: 60px auto 40px auto;
   display: flex;
