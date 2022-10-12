@@ -54,8 +54,8 @@
 }
 
 .khan__book-pic {
-  height: 620px;
-  width: 608px;
+  height: 608px;
+  width: 620px;
   object-fit: cover;
   object-position: top;
 }
@@ -65,11 +65,5 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
-  text-decoration: none;
   margin-left: 48px;
-  transition: ease .5s;
-}
-
-.khan__buy-link:hover {
-  opacity: .5;
 }

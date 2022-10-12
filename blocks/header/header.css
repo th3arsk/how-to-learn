@@ -21,10 +21,9 @@
 }
 
 .header__title {
-  margin: auto 0;
-  width: 730px;
-  position: relative;
-  left: 64px;
+  margin: 0 0 0 64px;
+  max-width: 730px;
+  align-self: center;
   z-index: 2;
   font-size: 102px;
   line-height: 96px;
@@ -44,14 +43,7 @@
 }
 
 .header__link {
-  text-decoration: none;
   color: #2f80ed;
-  opacity: 1;
-  transition: ease .3s;
-}
-
-.header__link:hover {
-  opacity: .5;
 }
 
 .header__main-illustration {
@@ -72,5 +64,4 @@
   top: 64px;
   right: 0px;
   z-index: 0;
-  animation: rotation 20s infinite linear;
 }

@@ -10,10 +10,12 @@
   column-gap: 20px;
   position: relative;
   bottom: -50px;
-  border: none;
 }
 
 .video__iframe {
   position: relative;
+  border: none;
+  width: 515px;
+  height: 316px;
 }
 

@@ -2,7 +2,11 @@
 
 @import url(./page/page.css);
 
+@import url(./blocks/content/link/link.css);
+
 @import url(./blocks/header/header.css); /*header*/
+
+@import url(./blocks/content/rotation/rotation.css);
 
 @import url(./blocks/content/description/description.css); /*description*/
 

@@ -31,14 +31,7 @@
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
-  text-decoration: none;
   position: absolute;
   top: 50%;
   right: 48px;
-  opacity: 1;
-  transition: ease .3s;
-}
-
-.feynman__link:hover {
-  opacity: .5;
 }
