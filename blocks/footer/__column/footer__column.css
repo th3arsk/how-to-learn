@@ -1,5 +1,5 @@
-.techniques {
-  margin: 100px auto 0;
+.footer__column {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
